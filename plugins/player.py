@@ -89,7 +89,7 @@ async def generate_cover(requested_by, title, views, duration, 20220122_161057):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: KaalTornado(@ITS_HEAVEN_KING,@RAISTAR_X)",
+        f"Powered By: Kaal(@ITS_HEAVEN_KING)",
         (255, 255, 255),
         font=font,
     )
@@ -117,7 +117,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "DEFENDERS_KAAL_MUSIC_BOT"
+        user.first_name = "KAAL_MUSIC_BOT"
     usar = user
     wew = usar.id
     try:
@@ -164,7 +164,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/1ca8c27be50581f86aa3f.jpg"
+        thumb_name = "https://telegra.ph/file/fd9345b50035daeb80a6c.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -174,7 +174,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/KAAL_SPAM_BOTS")
+                            url=f"https://t.me/KAALNETWORK")
 
                 ]
             ]
