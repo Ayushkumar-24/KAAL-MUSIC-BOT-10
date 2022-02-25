@@ -27,4 +27,4 @@ async def broadcast(_, message: Message):
                 await asyncio.sleep(3)
             except:
                 failed=failed+1
-        await message.reply_text(f"`Ɠƈɑst Sʋƈƈɘssfʋɭɭy` \n\n**Sɘŋt Ƭø:** `{sent}` Ƈɦɑts \n**Fɑɩɭɘɗ Iŋ:** {failed} Ƈɦɑts")
+        await message.reply_text(f"`Ɠƈɑst Sʋƈƈɘssfʋɭɭy by kaal music bot` \n\n**Sɘŋt Ƭø:** `{sent}` Ƈɦɑts \n**Fɑɩɭɘɗ Iŋ:** {failed} Ƈɦɑts")
