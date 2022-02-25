@@ -1,9 +1,9 @@
 {
-    "name": "AlishaMusic",
-    "logo": "https://telegra.ph/file/fd880593afcb71a2c02cd.jpg",
-    "description": "An Advanced Premium Music Bot For Telegram Groups VC.",
+    "name": "KAALMUSIC",
+    "logo": "https://telegra.ph/file/fd9345b50035daeb80a6c.jpg",
+    "description": "An Advanced KAAL Music Bot For Telegram Groups VC.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/khushbuxabhi/SuperMusic",
+    "repository": "https://github.com/garwmishra/kaal-music-bot",
     "stack": "container",
     "env": {
         "API_ID": {
