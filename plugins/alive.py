@@ -33,25 +33,25 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/46247f00eecfb587117c0.jpg",
+        photo=f"https://telegra.ph/file/fd9345b50035daeb80a6c.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ KAAL TORNADO sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
+💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ KAAL sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴏʀ : [KAAL SID](https://t.me/ITS_HEAVEN_KING)
-┣★ ᴜᴘᴅᴀᴛᴇs : [KAAL TORNADO SPAM](https://t.me/KAAL_SPAM_BOTS)
-┣★ sᴜᴘᴘᴏʀᴛ : [KAAL ARMY](https://t.me/kaal_tornado_riders)
-┣★ ᴏᴡɴᴇʀ › : [KAAL TORNADO NETWORK](https://t.me/KAAL_TORNADO_NETWORK)
+┣★ ᴄʀᴇᴀᴛᴏʀ : [KAAL](https://t.me/ITS_HEAVEN_KING)
+┣★ ᴜᴘᴅᴀᴛᴇs : [KAAL NETWORK](https://t.me/KAALNETWORK)
+┣★ sᴜᴘᴘᴏʀᴛ : [KAAL SUPPORT](https://t.me/team_kaal_rider)
+┣★ ᴏᴡɴᴇʀ › : [GARW](https://t.me/ITS_HEAVEN_KING)
 ┗━━━━━━━━━━━━━━━━━┛
 
 💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ [KAAL TORNADO OWNER](https://t.me/ITS_HEAVEN_KING) ...
+ᴅᴍ ᴛᴏ ᴍʏ [KAAL OWNER](https://t.me/ITS_HEAVEN_KING) ...
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ ᴊᴏɪɴ ʜᴇʀᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs ❱ ➕", url=f"https://t.me/KAAL_SPAM_BOTS")
+                        "➕ ❰ᴊᴏɪɴ ʜᴇʀᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs ❱ ➕", url=f"https://t.me/KAALNETWORK")
                 ]
                 
            ]
@@ -62,13 +62,13 @@ async def start_(client: Client, message: Message):
 @Client.on_message(commandpro(["/start", "/alive", "Candy"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/de138de8fd880becb9cf1.jpg",
+        photo=f"https://telegra.ph/file/fd9345b50035daeb80a6c.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 KAAL TORNADO NETWORK💞", url=f"https://t.me/KAAL_TORNADO_NETWORK")
+                        "💥 KAAL NETWORK💞", url=f"https://t.me/KAALNETWORK")
                 ]
             ]
         ),
@@ -78,13 +78,13 @@ async def start(client: Client, message: Message):
 @Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/de138de8fd880becb9cf1.jpg",
+        photo=f"https://telegra.ph/file/fd9345b50035daeb80a6c.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://github.com/KAAL-TORNADO/KAAL-TORNADO-MUSIC-BOT")
+                        "💥 ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://github.com/garwmishra/KAAL-MUSIC-BOT")
                 ]
             ]
         ),
